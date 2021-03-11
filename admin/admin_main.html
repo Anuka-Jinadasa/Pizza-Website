@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" href = "../Common files/qwe.css">
+			
+			<img src = "../Common files/logo1.png" width = "15%" height = "150px">
+			
+			<a href = "../Home/home.html"><button>Home</button></a>
+			<a href = "../menu/menu.html"><button>Menu</button></a>
+			
+			<button>Image Gallery</button>
+			<button>Locations</button>
+			<a href = "../Feedback/feed.html"><button>Feedback</button></a>
+					
+			<a href = "../Login/login.html"><button class="login">Login or Register</button></a>
+			
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	.container {
+		position: relative;
+		width: 50%;
+	}
+
+	.image {
+		opacity:1;
+		display: block;
+		width: 200%;
+		height: 200px;
+		transition: .5s ease;
+		backface-visibility: hidden;
+	}
+
+	.middle {
+		transition: .5s ease;
+		opacity: 0;
+		position: absolute;
+		top: 140px;
+		left: 50px;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		text-align: center;
+	}
+
+	.container:hover .image{
+		opacity: 0.3;
+	}
+
+	.container:hover .middle {
+		opacity: 1;
+	}
+	
+	.text {
+	
+		color: white;
+		font-size: 22px;
+		padding: 20px 20px;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+	}
+				* {
+						box-sizing: border-box;
+					   }
+
+				.column {
+						float: left;
+						width: 20%;
+						padding: 5px;
+		               }
+
+				.row{
+					margin-left:auto;
+					}
+				.row::after {
+						content: "";
+						clear: both;
+						display: table;
+						}
+				
+</style>
+</head>
+<body>
+	
+	<h1 class ="heading">Admin</h1>
+		</br>
+		</br>
+		</br>
+		
+		
+		<div class = "row">
+			<div class ="column">
+			<div class="container">
+				<a href = "http://localhost/pages/admin/add1.php">
+				<img src="menu.jpg" alt="menus" class="image">
+				<div class="middle">
+			<div class="text"><b>Add items</b></div>
+		</div>
+		</div>  
+		</div>
+		
+		
+<div class ="column">
+  <div class="container">
+   <a href = "http://localhost/pages/admin/remove.php">
+   <img src="menu.jpg" alt="menus" class="image">
+   <div class="middle">
+    <div class="text"><b>Remove items</b></div>
+   </div>
+</div>  
+</div>
+
+
+	<div class ="column">
+	<div class="container">
+		<a href = "http://localhost/pages/admin/to%20contact.php">
+		<img src="contact.jpg" alt="manage user accounts" class="image">
+		<div class="middle">
+			<div class="text"><b>To contact</b></div>
+		</div>
+		</div>  
+	</div>
+
+	
+	
+	<div class ="column">
+		<div class="container">
+			<a href ="http://localhost/pages/admin/orders_list.php">
+				<img src="orders.jpg" alt="Order kist" class="image">
+				<div class="middle">
+			<div class="text"><b>Orders list</b></div>
+			</div>
+		</div>  
+	</div>
+	
+	<div class ="column">
+		<div class="container">
+			<a href ="http://localhost/pages/admin/orders_list.php">
+				<img src="feedbacks.jpg" alt="feedbacks" class="image">
+				<div class="middle">
+			<div class="text"><b>Feedbacks</b></div>
+			</div>
+		</div>  
+	</div>
+	
+</div>	
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+
+
+<!-- footer  -->
+	
+	<div class="footer">
+		
+		<img class ="image_pay"src = "../Common files/pay.jpg">
+		<img class = "image_social"src = "../Common files/so.png">
+		
+		<div class="btn-group">
+			<a href ="../Contact us/c us.html"<button class="button">Contact us</button></a>
+			<a href ="../about us and terms/about us.html"<button class="button">About us</button></a>
+			<a href = "../careers/careers.html"><button class="button">Careers</button></a>
+			<a href ="../about us and terms/terms.html"<button class="button">Terms of use</button></a>
+		</div>
+		
+
+		
+	</div>
+	
+	<!-- End of footer -->
+
+			
+	</body>	
+
+	
+
+</html>
+
