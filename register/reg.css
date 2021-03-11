@@ -1,0 +1,122 @@
+#email{
+	
+		width:25%;
+		padding:12px;
+		border:1px solid #ccc;
+		border-radius:4px;
+		box-sizing:border-box;
+		margin-top:6px;
+		margin-bottom:16px;
+		margin-left:20%;
+		resize:vertical;
+		background-color: #FFEFD5;
+}
+
+#passw{
+		
+		
+		width:25%;
+		padding:12px;
+		border:1px solid #ccc;
+		border-radius:4px;
+		box-sizing:border-box;
+		margin-top:6px;
+		margin-bottom:16px;
+		margin-left:125px;
+		resize:vertical;
+		background-color: #FFEFD5;
+	
+}
+
+#usrname{
+	
+		width:25%;
+		padding:12px;
+		border:1px solid #ccc;
+		border-radius:4px;
+		box-sizing:border-box;
+		margin-top:6px;
+		margin-bottom:16px;
+		margin-left:20%;
+		resize:vertical;
+		background-color: #FFEFD5;
+}
+
+#repasswd{
+		
+		
+		width:25%;
+		padding:12px;
+		border:1px solid #ccc;
+		border-radius:4px;
+		box-sizing:border-box;
+		margin-top:6px;
+		margin-bottom:16px;
+		margin-left:125px;
+		resize:vertical;
+		background-color: #FFEFD5;
+	
+}
+
+#phoneNo{
+	
+		width:25%;
+		padding:12px;
+		border:1px solid #ccc;
+		border-radius:4px;
+		box-sizing:border-box;
+		margin-top:6px;
+		margin-bottom:16px;
+		margin-left:20%;
+		resize:vertical;
+		background-color: #FFEFD5;
+}
+
+
+#adrs{
+		
+		
+		width:25%;
+		padding:12px;
+		border:1px solid #ccc;
+		border-radius:4px;
+		box-sizing:border-box;
+		margin-top:6px;
+		margin-bottom:16px;
+		margin-left:125px;
+		resize:vertical;
+		background-color: #FFEFD5;
+	
+}
+
+
+input[type = submit]{
+
+		background-color:#4CAF50;
+		color:white;
+		padding:12px 20px;
+		boder:none;
+		border-radius:4px;
+		cursor:pointer;
+		width:25%;
+		margin-left:36%;
+		
+}
+		
+input[type = submit]:hover{
+
+		background-color:#45a049;
+}
+		
+.regisHead{
+	
+		color:#45a049;
+}
+
+
+	
+	
+	
+	
+	
+	
