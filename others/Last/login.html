@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Login</title>
+		<link rel = "stylesheet" href = "qwe.css">
+		<link rel = "text/javascript" href = "validation.js">
+		
+		<img src = "logo1.png" width = "120px" height = "150px">
+		<button>Home</button><button>Menu</button><button>Offers</button><button>Packages</button><button>Locations</button><button>Feedback</button>
+			
+		<button class="login">Login or Register</button>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<script src = "validation.js"> </script>
+	</head>
+	
+	<style src = "loginStyle.css">
+		<!--#loginImage {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 50%;
+		}
+		
+		form {
+			text-align: left;
+			width: 320px;
+			margin: 0 auto;
+		}
+		
+		input[type = email]{
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		
+		input[type = password]{
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+
+		input[type = submit]{
+			width: 75%;
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 12%;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			
+		}
+		.links {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 5px;
+			height: 55px;
+			width: 287px;
+		}
+		.log {
+			color: #80aaff;-->
+		}
+	</style>
+
+	<body>
+		<hr color = "red"/>
+		<h1 align = "center" style = "font-size:3vw;"><font color = "green">MEMBER LOGIN</font></h1> <br>
+		<img src = "loginImage.jpg" id = "loginImage">
+		
+		<form action = "home.html"  method = "POST" onsubmit = "return inputValidation();">
+			<input type = "email" name = "email" id = "email" placeholder = "Enter email">
+			<input type = "password" name ="pwd" id = "pwd" placeholder = "Enter Password" minlength = "8">
+			<input type = "submit" value = "Login">
+			
+		</form>
+		
+		<div align = "center">
+		<h5>forgot your password? <a href = "" class = "log">Reset</h5> </a>
+		<h5>Don't have an account? <a href = "" class = "log"> Sign up </h5> </a>
+		</div>
+		
+		<br>
+		<br>
+	
+	
+		
+		<a href = "http://www.facebook.com" target = "_blank"> <img src = "facebook.png" class = "links"> </a> <br/>
+		<a href = "http://plus.google.com" target = "_blank"> <img src = "google.png" class = "links"> </a> <br/>
+		
+		<br>
+		<br>
+		<br>
+		<!-- footer  -->
+	
+	<div class="footer">
+		
+		<img class ="image_pay"src = "pay.jpg">
+		<img class = "image_social"src = "social.jpg">
+		
+		<div class="btn-group">
+			<button class="button">Contact us</button>
+			<button class="button">About us</button>
+			<button class="button">Careers</button>
+			<button class="button">terms of use</button>
+		</div>
+
+		
+	</div>
+	
+	<!-- End of footer -->
+	
+	
+	</body>
+</html>

@@ -1,0 +1,139 @@
+<html>
+
+	<head>
+	
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			
+			<link rel = "stylesheet" href = "qwe.css">
+			
+			<img src = "logo1.png" width = "15%" height = "auto">
+					<a href = "home.html"><button>Home</button></a>
+					<button>Menu</button>
+					<button>Offers</button>
+					<button>Packages</button>
+					<button>Locations</button>
+					<button>Feedback</button>
+			
+			<a href = "login.html"><button class="login">Login or Register</button></a>
+			
+		<style>
+		h1{
+			text-align:center;
+			color:black;
+		}
+		.margin{
+			margin-left:450px;
+		}
+		.cent{
+			width:77%
+		}
+		#submit-style {
+			background-color: green;
+			color: white;
+			border: none;
+			padding: 10px;
+			font-size: 1.25em;
+		}
+		#submit-style:hover {
+			background-color: white;
+			color: green;
+		}
+		.letter{
+			color:white;
+		}
+		</style>
+	</head>
+	
+	
+	<body>
+	
+	<div class="letter">
+	<h1>VACANCY</h1></br>
+	
+
+<div class="margin">
+	<caption >Title</caption></br>
+<select id="gen" name="gen" style="height:35px">
+  <option value="mr">Mr</option>
+  <option value="mrs">Mrs</option>
+  <option value="miss">Miss</option>
+  <option value="ms">Ms</option>
+</select>
+	
+	<caption >Full In Name:</caption>
+	<input type = "text" id = "fullname" name = "fullname" style="width:42%" placeholder = "Enter Your full name" required>	
+		</br>
+	<div  class="cent" >	
+	<caption >Postal Address:</caption></br>		
+		<input type = "text" id = "address" name = "address" placeholder = "Enter your address" required>
+		</br>
+		<caption >Contact Number:</caption></br>
+		<input type = "text" id = "phone" name = "phone" placeholder = "Enter Your contact no" required>	
+		</br>
+	<caption >Email:</caption></br>		
+		<input type = "text" id = "email" name = "email" placeholder = "Enter your email" required>
+		</br>
+		<caption >NIC Number:</caption></br>		
+		<input type = "text" id = "nic" name = "nic" placeholder = "Enter your nic no" required>
+		</br>
+		</div>
+<caption >Date Of Birth:<caption>
+    <input type="date" id="bday" name="bday" style="height:35px">
+	</br>
+	</br>
+<caption name="gender" class="letter">Gender</caption></br>
+   <input type="radio" name="gender" value="male" checked> Male
+   <input type="radio" name="gender" value="female"> Female
+   <input type="radio" name="gender" value="other"> Other  
+   </br>
+   </br>
+<caption class ="letter">Civil Status:</caption>
+   <select id="civil" name="civil" style="height:35px">
+		<option value="mr">select</option>
+		<option value="mrs">singale</option>
+		<option value="miss">Married</option>
+	</select></br></br>
+	<caption class ="letter">Education Qualification:</caption></br>
+		<textarea id = "emessage" name = "emessage"  rows="15" cols="80" placeholder = "Add your education qualifications..." required></textarea>
+		</br>
+	<caption class ="letter">Professinal Qualification:</caption></br>	
+		<textarea id = "pmessage" name = "pmessage"  rows="15" cols="80" placeholder = "Add your professional qualifications..." required></textarea>
+		</br>
+		<input id="submit-style" type = "button" value = "Submit" onclick="validat()">
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+	</br>
+    </div>
+	</div>
+	<!-- footer  -->
+	
+	<div class="footer">
+		
+		<img class ="image_pay"src = "pay.jpg">
+		<img class = "image_social"src = "so.png">
+		
+		<div class="btn-group">
+			<a href = "c us.html"><button class="button">Contact us</button></a>
+			<a href = "about us.html"><button class="button">About us</button></a>
+			<button class="button">Careers</button>
+			<button class="button">terms of use</button>
+		</div>
+		
+
+		
+	</div>
+	<!-- End of footer -->
+		<script src="validatiapplication.js">
+
+		</script>	
+	</body>	
+
+	
+			
+
+
+</html>
